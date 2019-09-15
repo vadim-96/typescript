@@ -1,9 +1,15 @@
 {
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2019,
         "sourceType": "module",
-        "project": "./tsconfig.json"
+    },
+	"settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts"]
+            }
+        }
     },
     "plugins": [
         "@typescript-eslint",
@@ -11,7 +17,8 @@
         "no-use-extend-native"
     ],
     "env": {
-        "node": true
+        "node": true,
+        "browser": true,
     },
     "extends": [
         "plugin:@typescript-eslint/recommended",

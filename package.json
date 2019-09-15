@@ -4,7 +4,6 @@
   "description": "typescript course",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
     "tsc": "tsc"
   },
   "repository": {
@@ -15,16 +14,15 @@
   "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://github.com/vadim-96/typescript.git#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.7.0",
-    "@typescript-eslint/parser": "^1.7.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-no-use-extend-native": "^0.4.0",
-    "eslint-plugin-sonarjs": "^0.3.0",
-    "nodemon": "^1.19.0"
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-no-use-extend-native": "^0.4.1",
+    "eslint-plugin-sonarjs": "^0.4.0"
   },
   "dependencies": {
-    "typescript": "^3.4.5"
+    "typescript": "^3.6.3"
   }
 }

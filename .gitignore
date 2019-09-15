@@ -42,4 +42,4 @@ jspm_packages/
 # misc
 package-lock.json*
 yarn.lock*
-/.vscode/settings.json
+.idea
