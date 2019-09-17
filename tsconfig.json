@@ -1,13 +1,27 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "es2018",
+    "baseUrl": "./",
+    "outDir": "./out",
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2017",
     "module": "ESNext",
-    "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "removeComments": true,
+    "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
-    "strict": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ]
   },
+  "include": [
+    "./src/**/*"
+  ],
   "exclude": [
     "node_modules"
   ]

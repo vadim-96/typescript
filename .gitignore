@@ -31,6 +31,10 @@ jspm_packages/
 # REPL history
 .node_repl_history
 
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
 # dotenv environment variables file
 .env
 .env.local
@@ -42,4 +46,14 @@ jspm_packages/
 # misc
 package-lock.json*
 yarn.lock*
-.idea
+
+# compiled output
+/out/*
+/tmp
+
+# IDE
+/.idea
+
+# System Files
+.DS_Store
+Thumbs.db
